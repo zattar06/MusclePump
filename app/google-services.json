@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346503295786",
+    "project_id": "musclepump-b0938",
+    "storage_bucket": "musclepump-b0938.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346503295786:android:4ebf48005d5d04ff2aa453",
+        "android_client_info": {
+          "package_name": "com.example.musclepump"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAENcnejhvdQQvtqvz_-16FeHwak8Z0ppc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
