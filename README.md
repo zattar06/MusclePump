@@ -8,11 +8,7 @@ Criação de treinos, sistema de login, sistema de cadastro, adicionar uma data 
 
 **Tecnologias utilizadas:**
 
-- [x] Clean Architecture
-
 - [x] [Kotlin](https://kotlinlang.org/docs/getting-started.html)
-- [x] [MVVM](https://developer.android.com/jetpack/guide?gclid=CjwKCAiAjp6BBhAIEiwAkO9Wut2W9TLNRaql75qE26vP_xRvCfTBlBY5j8RHxc_r6RhC1HFPTprbwRoC32cQAvD_BwE&gclsrc=aw.ds) 
-- [x] Jetpack Components(ViewBinding, Navigation Components)
 - [x] [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Sobre-Controle-de-Vers%C3%A3o)
 - [x] [Glide](https://github.com/bumptech/glide)
 - [x] [Firebase](https://firebase.google.com/?hl=pt-br)
