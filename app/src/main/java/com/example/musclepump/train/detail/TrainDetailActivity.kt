@@ -85,7 +85,7 @@ class TrainDetailActivity : AppCompatActivity() {
         dialog.show()
 
         val btnAddNewExercise = view.findViewById<Button>(R.id.btn_add_new_exercise)
-        btnAddNewExercise.setOnClickListener {
+        btnAddNewExercise?.setOnClickListener {
 
             val exerciseName = view.findViewById<TextInputLayout>(R.id.til_exercise)
             val exerciseNameInput = exerciseName.editText?.text.toString()
@@ -100,11 +100,13 @@ class TrainDetailActivity : AppCompatActivity() {
         }
 
         val btnSelectImage = view.findViewById<Button>(R.id.btn_select_image)
-        btnSelectImage.setOnClickListener {
+        btnSelectImage?.setOnClickListener {
             onSelectImageClick(-1)
             dialog.dismiss()
         }
     }
+
+
 
     private fun addNewExercise(trainId: String, exercise: Exercise) {
         exercise.trainId = trainId
